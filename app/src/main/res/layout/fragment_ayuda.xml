@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="30dp"
+    android:padding="15dp"
+    tools:context=".fragments.AyudaFragment">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/azul_rey"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/title_ayuda"/>
+
+        <TextView
+            android:id="@+id/tv_comparte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="40dp"
+            android:text="- Comparte la app"/>
+
+        <TextView
+            android:id="@+id/tv_nosotros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="20dp"
+            android:text="- Nosotros"/>
+        <TextView
+            android:id="@+id/tv_cerrar_sesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="20dp"
+            android:text="- Cerrar sesión"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:fontFamily="sans-serif"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="¿Algo salió mal? Escríbenos: hey@planyi.com"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

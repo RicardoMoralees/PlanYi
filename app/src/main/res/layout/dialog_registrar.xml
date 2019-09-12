@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/logo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/dialog_registrar_title"/>
+
+        <EditText
+            android:id="@+id/et_registro_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="15dp"
+            android:hint="@string/dialog_hint_nombre"/>
+        <EditText
+            android:id="@+id/et_registro_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="15dp"
+            android:hint="@string/dialog_hint_email"/>
+        <EditText
+            android:id="@+id/et_registro_contra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"
+            android:hint="@string/dialog_hint_contrasena"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:hint="@string/dialog_hint_rol"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_boda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:buttonTint="@color/black"
+                    android:text="@string/radio_boda"/>
+                <RadioButton
+                    android:id="@+id/rb_xvs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:text="@string/radio_xvs"/>
+                <RadioButton
+                    android:id="@+id/rb_graduacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:text="@string/radio_graduacion"/>
+                <RadioButton
+                    android:id="@+id/rb_otro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:text="@string/radio_otro"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_registro_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:text="@string/inicia_sesion"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">Planyi</string>
+    <string name="title_activity_tabs">Planyi</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_proveedores">Proveedores</string>
+    <string name="title_ayuda">Ayuda</string>
+
+    <string name="registrate">Regístrate</string>
+    <string name="mas_tarde">Registrarme más tarde</string>
+    <string name="inicia_sesion">Iniciar sesión</string>
+
+    <string name="dialog_registrar_title">Completa tu registro</string>
+    <string name="dialog_hint_nombre">Nombre</string>
+    <string name="dialog_hint_email">E-mail</string>
+    <string name="dialog_hint_contrasena">Contraseña</string>
+    <string name="dialog_hint_rol">¡Selecciona tu evento!</string>
+
+    <string name="radio_boda">Boda</string>
+    <string name="radio_xvs">XVs</string>
+    <string name="radio_graduacion">Graduación</string>
+    <string name="radio_otro">Otro</string>
+
+    <string name="dias_para_el_evento">DÍAS PARA EL EVENTO</string>
+    <string name="fecha_evento">FECHA DEL EVENTO</string>
+    <string name="tus_proveedores">TUS PROVEEDORES</string>
+
+    <string name="salon">SÁLÓN</string>
+    <string name="flores">FLORES</string>
+    <string name="foto_y_video">FOTO Y VÍDEO</string>
+    <string name="banquete">BANQUETE</string>
+    <string name="renta_traje">RENTA DE TRAJE</string>
+    <string name="musica">MÚSICA</string>
+    <string name="invitaciones">INVITACIONES</string>
+    <string name="vestidos">VESTIDOS</string>
+
+    <string name="title_salones">SALONES</string>
+    <string name="salon_1">Luxemburgo</string>
+    <string name="salon_2">Vía Esperanza</string>
+    <string name="salon1_descripcion">Donde la elegancia se funde con lo mejor de la naturaleza para crear una atmósfera perfecta.</string>
+    <string name="salon2_descripcion">Vía Esperanza dispone de amplios espacios para celebrar con sus amigos y familiares de manera cómoda e íntima.</string>
+    <string name="salon1_costo">Costo: $150,000</string>
+    <string name="salon2_costo">Costo: $120,000</string>
+
+    <string name="title_banquetes">BANQUETES</string>
+    <string name="banquete_1">Banquetes León</string>
+    <string name="banquete_2">Banquetes Casablanca</string>
+    <string name="banquete1_desc">En esta empresa contarán con expertos, quienes les brindarán una amplia carta de recetas para que deslumbren a todos sus invitados con suaves aromas y sabores.</string>
+    <string name="banquete2_desc">Banquetes Casablanca cuenta con una amplia variedad de platillos que podrán ser la mejor opción para su evento. También podrán ajustarse a sus necesidades y peticiones especiales.</string>
+    <string name="banquete1_costo">Costo: $15,000</string>
+    <string name="banquete2_costo">Costo: $15,500</string>
+
+    <string name="title_flores">FLORERÍA</string>
+    <string name="floreria_1">Casa Blanca Florería</string>
+    <string name="floreria_2">Floresse Boutique Floral</string>
+    <string name="floreria1_desc">Todos los productos de Casa Blanca Florería están pensados para que no falte ni una sola flor en su evento y puedan disfrutar al máximo de su aroma.</string>
+    <string name="floreria2_desc">Floresse Taller Floral está dedicada al arte floral clásico, con un toque de innovación y creatividad en cada uno de sus productos. \n Trabajan acorde a sus necesidades, diseñan paquetes florales según su gusto y presupuesto, adaptándose a cualquier petición.</string>
+    <string name="floreria1_costo">Costo: $8,000</string>
+    <string name="floreria2_costo">Costo: $9,500</string>
+
+    <string name="title_trajes">TRAJES</string>
+    <string name="trajes1">Gallegos</string>
+    <string name="trajes2">D’ Paul</string>
+    <string name="trajes1_desc">¡La Mejor atención!</string>
+    <string name="trajes2_desc">Para que el novio luzca elegante y, por ende, destaque aún más en su boda, D’ Paul Culiacán le ofrece sus servicios.</string>
+    <string name="trajes1_costo">RENTA DESDE $390</string>
+    <string name="trajes2_costo">Costo: Desde los 600 hasta 1,700.</string>
+
+    <string name="title_invitaciones">INVITACIONES</string>
+    <string name="invitaciones1">Di fer</string>
+    <string name="invitaciones2">Stronka sociales</string>
+    <string name="invitaciones1_desc">Si buscan productos de calidad detallada y a atractivos precios, Di.Fer les invita a conocer su amplio catálogo de invitaciones para matrimonios de los que se enamorarán a primera vista.</string>
+    <string name="invitaciones2_desc">Stronka Sociales es la empresa que los ayudará con el diseño de las invitaciones y papelería en general para su boda.</string>
+    <string name="invitaciones1_costo">Desde los 6 hasta los 80 pesos.</string>
+    <string name="invitaciones2_costo">Desde los 26 pesos.</string>
+
+    <string name="title_fotos">FOTOGRAFÍA Y VIDEO</string>
+    <string name="foto1">Alberto Guadiana</string>
+    <string name="foto2">Fotografia Fernando Jacobo</string>
+    <string name="foto1_desc">Este fotógrafo se preocupará por capturar cada uno de los sentimientos que ese día encierra. Pondrá a su disposición un amplio portafolio de servicios de imagen para que ese gran día quede totalmente inmortalizado.</string>
+    <string name="foto2_desc">La cobertura de trabajo de esta empresa es amplia y se centra en buscar los mejores momentos de un día tan especial en sus vidas. La cobertura de la compañía es amplia y se distingue por su calidad.</string>
+    <string name="foto1_costo">Desde 1,500 pesos.</string>
+    <string name="foto2_costo">Desde 4,500 pesos</string>
+
+    <string name="title_vestidos">VESTIDOS</string>
+    <string name="vestidos1">LOSOYA\'S DRESS</string>
+    <string name="vestidos2">QUEEEN DRESS</string>
+    <string name="vestidos1_desc">\@losoyasdress</string>
+    <string name="vestidos2_desc">\@Queendress_rentadevestidos</string>
+    <string name="vestidos1_costo">Costo: $400 a 600</string>
+    <string name="vestidos2_costo">Costo: $700 a 1200</string>
+
+    <string name="title_musica">MÚSICA</string>
+    <string name="musica1">GRUPO VERSÁTIL</string>
+    <string name="musica2">Café café BANDA ORQUESTA</string>
+    <string name="musica1_desc">Una exelente opcción para aquellos que buscan "un poco de todo" con ellos, seguro que cada uno de tus invitados pasara un momento inolvidable.</string>
+    <string name="musica2_desc">Una de las bandas mas cotizadas del estado de Sinaloa, contamos con más de 30 años de tradición y una experiencia que seguro nunca olvidarás.</string>
+    <string name="musica1_costo">Costo: $60,000</string>
+    <string name="musica2_costo">Costo: $65,000</string>
+
+    <string-array name="via_esperanza">
+        <item><b>Espacios:</b></item>
+        <item>Jardín</item>
+        <item>Salón de eventos</item>
+        <item>Pista de baile</item>
+        <item>Cocina</item>
+        <item>Estacionamiento privado</item>
+        <item> </item>
+        <item><b>Servicios:</b></item>
+        <item>300 invitados</item>
+        <item>-10 mesas</item>
+        <item>-Banquete</item>
+        <item>-Meseros</item>
+        <item>-Cerveza ilimitada</item>
+        <item>-Decoracion</item>
+        <item>-5hr de fiesta</item>
+    </string-array>
+    <string-array name="luxemburgo">
+        <item><b>Servicios:</b></item>
+        <item>-Asesoría de evento</item>
+        <item>-Capitán de meseros</item>
+        <item>-Barreros</item>
+        <item>-Hostess</item>
+        <item>-Porteros</item>
+        <item>-Seguridad</item>
+        <item>-Valet de servicio</item>
+        <item>-DJ</item>
+        <item>-Sonido ultraecualizado</item>
+        <item>-Show de luces audiorítmicas</item>
+        <item>-Máquina de humo</item>
+    </string-array>
+
+    <string-array name="banquetes_leon">
+        <item><b>Servicios:</b></item>
+        <item>-Banquete</item>
+        <item>-Chef y garzones</item>
+        <item>-Catering</item>
+        <item>-Servicio de Coffe Break</item>
+        <item>-Servicio de mesa de carnes frías, queso y vino.</item>
+        <item>-Servicio de Candy Bar</item>
+    </string-array>
+    <string-array name="banquetes_casablanca">
+        <item><b>Servicios:</b></item>
+        <item>-Banquete</item>
+        <item>-Decoración</item>
+        <item>-Mantelería</item>
+        <item>-Loza</item>
+    </string-array>
+
+    <string-array name="floreria_casablanca">
+        <item><b>Servicios:</b></item>
+        <item>-Decoración del banquete</item>
+        <item>-Centros de mesa</item>
+        <item>-Mesa de dulces</item>
+    </string-array>
+    <string-array name="floreria_floresse">
+        <item><b>Servicios:</b></item>
+        <item>-Centros de mesa</item>
+        <item>-Decoración</item>
+        <item>-Bouquets</item>
+    </string-array>
+
+    <string-array name="trajes_gallegos">
+        <item><b>Servicios:</b></item>
+        <item>-Cortes Slim Fit modernos</item>
+        <item>-Marcas reconocidas y de calidad</item>
+    </string-array>
+    <string-array name="trajes_dPaul">
+        <item><b>Servicios:</b></item>
+        <item>-Trajes de novio</item>
+        <item>-Chanqué</item>
+        <item>-Frac</item>
+        <item>-Smoking</item>
+        <item>-Chalecos</item>
+        <item>-Corbatas</item>
+        <item>-Gemelos</item>
+        <item>-Faja</item>
+        <item>-Zapatos</item>
+        <item>-Cinturones</item>
+    </string-array>
+
+    <string-array name="invitaciones_difer">
+        <item><b>Productos:</b></item>
+        <item>-Diseños digitales</item>
+        <item>-Impresión de invitaciones</item>
+        <item>-Papelería social (money holders, caballetes, tarjetas de regalo, banderines, etiquetas, etc.)</item>
+        <item>-Sandalias personalizadas</item>
+        <item>-Vasos y termos personalizados</item>
+        <item>-Libros de firmas</item>
+        <item>-Recuerdos para boda</item>
+        <item>-Sring art</item>
+        <item>-Cuadros de huellas</item>
+        <item>-Cake toppers</item>
+        <item>-Detalles</item>
+    </string-array>
+    <string-array name="invitaciones_stronka">
+        <item><b>Productos:</b></item>
+        <item>-Diseño personalizado</item>
+        <item>-Impresión digital</item>
+        <item>-Diseño de menús</item>
+        <item>-Mapas</item>
+    </string-array>
+
+    <string-array name="foto_alberto">
+        <item><b>Servicios:</b></item>
+        <item>-Fotografía</item>
+        <item>-Video</item>
+        <item>-E-session</item>
+        <item>-Álbumes</item>
+        <item>-Álbum digital</item>
+        <item>-DVD con las fotografías</item>
+        <item>-Photocall</item>
+        <item>-Photobooth</item>
+    </string-array>
+    <string-array name="foto_fernando">
+        <item><b>Servicios:</b></item>
+        <item>-E-session</item>
+        <item>-Reportaje completo de su boda</item>
+        <item>-Álbumes y álbum digital</item>
+        <item>-Photobook</item>
+        <item>-Álbum digital</item>
+        <item>-Fotografías en alta resolución</item>
+        <item>-DVD con todas vuestras fotos</item>
+    </string-array>
+
+    <string-array name="vestidos_losoya">
+        <item><b>Productos:</b></item>
+        <item>-Venta y renta de vestidos de noche</item>
+        <item>-Largos-cortos para cualquier ocasión especial</item>
+    </string-array>
+    <string-array name="vestidos_queen">
+        <item><b>Productos:</b></item>
+        <item>-Venta y renta de vestidos de noche</item>
+        <item>-Largos-cortos para cualquier ocasión especial</item>
+    </string-array>
+
+    <string-array name="musica_versatil">
+        <item><b>Servicios:</b></item>
+        <item>-5 horas de música </item>
+        <item>-show con los invitados</item>
+        <item>-souvenirs</item>
+    </string-array>
+    <string-array name="musica_cafe">
+        <item><b>Servicios:</b></item>
+        <item>-6 horas de fiesta</item>
+        <item>-show para invitados</item>
+        <item>-mariachi, banda, cumbias, pop y música dem momento</item>
+    </string-array>
+
+
+    <string name="ver_mas">Ver más</string>
+    <string name="adquirir">Adquirir</string>
+    <string name="reservar">RESERVAR EVENTO</string>
+    <string name="evento_reservado">¡EVENTO RESERVADO!</string>
+</resources>

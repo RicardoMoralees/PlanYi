@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.PerfilFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/perfil"/>
+        <TextView
+            android:id="@+id/tv_perfil_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/dialog_hint_nombre"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tv_perfil_rol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="rol"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/calendario_tiempo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dias_para_el_evento"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@color/azul_rey"
+            android:padding="5dp"
+            android:gravity="center_horizontal">
+
+            <cn.iwgang.countdownview.CountdownView
+                android:id="@+id/countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:timeTextSize="22sp"
+                app:timeTextColor="@color/white"
+                app:isShowDay="true"
+                app:isShowHour="true"
+                app:isShowMinute="true"
+                app:isShowSecond="true"
+                app:isTimeTextBold="true"
+                app:suffixTextSize="10sp"
+                app:suffixTextColor="@color/white"
+                app:suffixDay="day"
+                app:suffixHour="hr"
+                app:suffixMinute="min"
+                app:suffixSecond="seg"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/calendario"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fecha_evento"/>
+        </LinearLayout>
+
+        <com.shrikanthravi.collapsiblecalendarview.widget.CollapsibleCalendar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/calendarView"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/tus_proveedores"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_proveedores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/gris_bajito"
+            android:layout_marginTop="15dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</ScrollView>
